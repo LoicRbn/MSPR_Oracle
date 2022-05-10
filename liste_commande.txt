@@ -19,6 +19,17 @@ sqlldr userid=rparis/rparis control=tournee.ctl log=tournee.log
 typedechet : ok
 sqlldr userid=rparis/rparis control=typedechet.ctl log=typedechet.log
 
+Ordre d'imorportation :
+sqlldr userid=rparis/rparis control=detaildepot.ctl log=detaildepot.log
+sqlldr userid=rparis/rparis control=centre.ctl log=centre.log
+sqlldr userid=rparis/rparis control=tournee.ctl log=tournee.log
+sqlldr userid=rparis/rparis control=typedechet.ctl log=typedechet.log
+
+
+ORDRE Paris :
+employe -> camion -> entreprise -> centre -> typedechet -> demande -> detaildemande -> detaildepot -> tournee
+
+
 Controle :
 select * from camion;
 select * from centre;
@@ -57,6 +68,8 @@ sqlldr userid=rlille/rlille control=tournee.ctl log=tournee.log
 typedechet :
 sqlldr userid=rlille/rlille control=typedechet.ctl log=typedechet.log
 
+ORDRE Lille :
+fonction -> employe -> camion -> entreprise -> centre -> typedechet -> detaildepot -> tournee -> demande -> detaildemande
 
 Controle :
 select * from camion;

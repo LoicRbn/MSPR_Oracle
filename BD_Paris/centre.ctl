@@ -1,7 +1,7 @@
 load data
    infile 	'centre.txt'
    badfile 	'centre.bad'
-   discardfile 	'c:\load\centre.dsc'
+   discardfile 	'centre.dsc'
 INSERT
 into table CENTRETRAITEMENT
 fields terminated by ';'
