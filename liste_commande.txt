@@ -1,6 +1,6 @@
-BD paris : 
+BD paris :
 
-camion : fait
+camion : ok
 sqlldr userid=rparis/rparis control=camion.ctl log=camion.log
 centre : ok
 sqlldr userid=rparis/rparis control=centre.ctl log=centre.log
@@ -12,14 +12,14 @@ detaildepot : ok
 sqlldr userid=rparis/rparis control=detaildepot.ctl log=detaildepot.log
 employe : ok
 sqlldr userid=rparis/rparis control=employe.ctl log=employe.log
-entreprise : fait
+entreprise : ok
 sqlldr userid=rparis/rparis control=entreprise.ctl log=entreprise.log
-tournee
+tournee : ok
 sqlldr userid=rparis/rparis control=tournee.ctl log=tournee.log
-typedechet
+typedechet : ok
 sqlldr userid=rparis/rparis control=typedechet.ctl log=typedechet.log
 
-Controle : 
+Controle :
 select * from camion;
 select * from centre;
 select * from demande;
@@ -29,5 +29,30 @@ select * from employe;
 select * from entreprise;
 select * from tournee;
 select * from typedechet;
+s
+BD Lille :
 
-
+camion : ok
+sqlldr userid=rlille/rlille control=camion.ctl log=camion.log
+centre :
+sqlldr userid=rlille/rlille control=centre.ctl log=centre.log
+demande :
+sqlldr userid=rlille/rlille control=demande.ctl log=demande.log
+detaildemande :
+sqlldr userid=rlille/rlille control=detaildemande.ctl log=detaildemande.log
+detaildepot :
+sqlldr userid=rlille/rlille control=detaildepot.ctl log=detaildepot.log
+employe :
+sqlldr userid=rlille/rlille control=employe.ctl log=employe.log
+entreprise :
+sqlldr userid=rlille/rlille control=entreprise.ctl log=entreprise.log
+fonction : (pas present dans la BD paris)
+sqlldr userid=rlille/rlille control=fonction.ctl log=fonction.log
+marque : (pas present dans la BD paris)
+sqlldr userid=rlille/rlille control=marque.ctl log=marque.log
+modele : (pas present dans la BD paris)
+sqlldr userid=rlille/rlille control=modele.ctl log=modele.log
+tournee :
+sqlldr userid=rlille/rlille control=tournee.ctl log=tournee.log
+typedechet :
+sqlldr userid=rlille/rlille control=typedechet.ctl log=typedechet.log

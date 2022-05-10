@@ -1,4 +1,4 @@
-connect system/xe
+--connect system/xe
 
 drop user rlille cascade;
 

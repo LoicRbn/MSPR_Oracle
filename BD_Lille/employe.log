@@ -1,0 +1,75 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Mar. Mai 10 15:40:23 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   employe.ctl
+Data File:      employe.txt
+  Bad File:     employe.bad
+  Discard File: employe.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMPLOYE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NOEMPLOYE                           FIRST     *   ;       CHARACTER            
+    SQL string for column : "seq_employe.nextval"
+NOM                                  NEXT     *   ;       CHARACTER            
+PRENOM                               NEXT     *   ;       CHARACTER            
+DATENAISS                            NEXT     *   ;       CHARACTER            
+DATEEMBAUCHE                         NEXT     *   ;       CHARACTER            
+SALAIRE                              NEXT     *   ;       CHARACTER            
+NOFONCTION                           NEXT     *   ;       CHARACTER            
+
+Record 1: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 2: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 3: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 4: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 5: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 6: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+Record 7: Rejected - Error on table EMPLOYE.
+ORA-02291: integrity constraint (RLILLE.FK_EMPLOYE_FONCTION) violated - parent key not found
+
+
+Table EMPLOYE:
+  0 Rows successfully loaded.
+  7 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 115584 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             7
+Total logical records rejected:         7
+Total logical records discarded:        0
+
+Run began on Mar. Mai   10 15:40:23 2022
+Run ended on Mar. Mai   10 15:40:24 2022
+
+Elapsed time was:     00:00:00.07
+CPU time was:         00:00:00.06

@@ -1,0 +1,31 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Mar. Mai 10 15:40:35 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   marque.ctl
+Data File:      marque.txt
+  Bad File:     marque.bad
+  Discard File: marque.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MARQUE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NOMARQUE                            FIRST     *   ;       CHARACTER            
+    SQL string for column : "seq_marque.nextval"
+NOMMARQUE                            NEXT     *   ;       CHARACTER            
+
+SQL*Loader-941: Error during describe of table MARQUE
+ORA-04043: object MARQUE does not exist
+
