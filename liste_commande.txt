@@ -1,0 +1,33 @@
+BD paris : 
+
+camion : fait
+sqlldr userid=rparis/rparis control=camion.ctl log=camion.log
+centre : ok
+sqlldr userid=rparis/rparis control=centre.ctl log=centre.log
+demande : ok
+sqlldr userid=rparis/rparis control=demande.ctl log=demande.log
+detaildemande : ok
+sqlldr userid=rparis/rparis control=detaildemande.ctl log=detaildemande.log
+detaildepot : ok
+sqlldr userid=rparis/rparis control=detaildepot.ctl log=detaildepot.log
+employe : ok
+sqlldr userid=rparis/rparis control=employe.ctl log=employe.log
+entreprise : fait
+sqlldr userid=rparis/rparis control=entreprise.ctl log=entreprise.log
+tournee
+sqlldr userid=rparis/rparis control=tournee.ctl log=tournee.log
+typedechet
+sqlldr userid=rparis/rparis control=typedechet.ctl log=typedechet.log
+
+Controle : 
+select * from camion;
+select * from centre;
+select * from demande;
+select * from detaildemande;
+select * from detaildepot;
+select * from employe;
+select * from entreprise;
+select * from tournee;
+select * from typedechet;
+
+

@@ -1,0 +1,149 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Mar. Mai 10 15:16:05 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   detaildepot.ctl
+Data File:      detaildepot.txt
+  Bad File:     detaildepot.bad
+  Discard File: detaildepot.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DETAILDEPOT, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+QUANTITEDEPOSEE                     FIRST     *   ;       CHARACTER            
+NOTOURNEE                            NEXT     *   ;       CHARACTER            
+NOTYPEDECHET                         NEXT     *   ;       CHARACTER            
+NOCENTRE                             NEXT     *   ;       CHARACTER            
+
+Record 1: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 2: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 3: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 4: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 5: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 6: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 7: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 8: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 9: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 10: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 11: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 12: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 13: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 14: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 15: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 16: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 17: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 18: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 19: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 20: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 21: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 22: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 23: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 24: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 25: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 26: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 27: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 28: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 29: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 30: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 31: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 32: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+Record 33: Rejected - Error on table DETAILDEPOT.
+ORA-02291: integrity constraint (RPARIS.FK_DETAILDEP_TYPEDECH) violated - parent key not found
+
+
+Table DETAILDEPOT:
+  0 Rows successfully loaded.
+  33 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            33
+Total logical records rejected:        33
+Total logical records discarded:        0
+
+Run began on Mar. Mai   10 15:16:05 2022
+Run ended on Mar. Mai   10 15:16:05 2022
+
+Elapsed time was:     00:00:00.12
+CPU time was:         00:00:00.06
