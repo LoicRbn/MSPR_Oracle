@@ -29,7 +29,7 @@ select * from employe;
 select * from entreprise;
 select * from tournee;
 select * from typedechet;
-s
+
 BD Lille :
 
 camion : ok
@@ -56,3 +56,18 @@ tournee :
 sqlldr userid=rlille/rlille control=tournee.ctl log=tournee.log
 typedechet :
 sqlldr userid=rlille/rlille control=typedechet.ctl log=typedechet.log
+
+
+Controle :
+select * from camion;
+select * from centre;
+select * from demande;
+select * from detaildemande;
+select * from detaildepot;
+select * from employe;
+select * from entreprise;
+select * from fonction;
+select * from marque;
+select * from modele;
+select * from tournee;
+select * from typedechet;
