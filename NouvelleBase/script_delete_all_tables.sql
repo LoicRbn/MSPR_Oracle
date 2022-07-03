@@ -1,0 +1,15 @@
+drop table "NATIONAL"."CAMION" cascade constraints PURGE;
+drop table "NATIONAL"."DEMANDE" cascade constraints PURGE;
+drop table "NATIONAL"."DETAILDEMANDE" cascade constraints PURGE;
+drop table "NATIONAL"."DETAILDEPOT" cascade constraints PURGE;
+drop table "NATIONAL"."ENTREPRISE" cascade constraints PURGE;
+drop table "NATIONAL"."FONCTION" cascade constraints PURGE;
+drop table "NATIONAL"."MARQUE" cascade constraints PURGE;
+drop table "NATIONAL"."SITE" cascade constraints PURGE;
+drop table "NATIONAL"."TOURNEE" cascade constraints PURGE;
+drop table "NATIONAL"."TYPEDECHET" cascade constraints PURGE;
+drop table "NATIONAL"."MODELE" cascade constraints PURGE;
+drop table "NATIONAL"."INDISPONIBILITER" cascade constraints PURGE;
+drop table "NATIONAL"."LICENCIER" cascade constraints PURGE;
+drop table "NATIONAL"."DEMANDEATRAITER" cascade constraints PURGE;
+drop table "NATIONAL"."CENTRETRAITEMENT" cascade constraints PURGE;
